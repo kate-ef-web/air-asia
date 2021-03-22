@@ -6,15 +6,16 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <div class="wrapper__content">
+        <header class="header">
           <a href="#" class="logo">
-            <img src="" alt="Логотип" class="logo__pic">
+            <img src="" alt="Логотип компании" class="logo__pic">
           </a>
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item">Главная</li>
-              <li class="menu__item">Игры</li>
-              <li class="menu__item">Отзывы</li>
+              <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Игры</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
           <address class="contacts">
@@ -22,42 +23,43 @@
             <div class="contacts__workhours">График работы</div>
           </address>
         </header>
-      </header>
-      <main class="main-content">
-          <div class="title">
+        <main class="main-content">
+          <section class="title">
             <h1 class="title__caption">Интеллектуальный вечер для шумной компнии</h1>
             <h3 class="title__subtitle">Игры на любой вкус</h3>
-            <button class="title__button">Подробнее</button>
-          </div>
-          <section class="new-items">
-            <div class="new-title">
-              <h2 class="new-title__title">Новинки недели</h2>
-              <img src="" alt="Иконка" class="new-title__icon">
+            <a href="#" class="button">Подробнее</a>
+          </section>
+          <section class="offers">
+            <div class="offers-title">
+              <h2 class="offers-title__title">Новинки недели</h2>
+              <img src="" alt="Иконка" class="offers-title__icon">
             </div>
-            <div class="cart">
-              <img src="" alt="Картинка" class="cart__img">
-              <h4 class="cart__title">Музыкальная игра</h4>
-              <span class="cart__time">90 минут</span>
-              <span class="cart__question">70 вопросов</span>
-              <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
-              <button class="cart__button">Смотреть</button>
-            </div>
-            <div class="cart">
-              <img src="" alt="Картинка" class="cart__img">
-              <h4 class="cart__title">Назад в 90-е</h4>
-              <span class="cart__time">90 минут</span>
-              <span class="cart__question">70 вопросов</span>
-              <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
-              <button class="cart__button">Смотреть</button>
-            </div>
-            <div class="cart">
-              <img src="" alt="Картинка" class="cart__img">
-              <h4 class="cart__title">IT-викторина</h4>
-              <span class="cart__time">90 минут</span>
-              <span class="cart__question">70 вопросов</span>
-              <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
-              <button class="cart__button">Смотреть</button>
-            </div>
+            <ul class="offers__list">
+              <li class="offers__item">
+                <img src="" alt="Картинка" class="cart__img">
+                <h4 class="cart__title">Музыкальная игра</h4>
+                <span class="cart__time">90 минут</span>
+                <span class="cart__question">70 вопросов</span>
+                <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
+                <button class="cart__button">Смотреть</button>
+              </li>
+                <div class="cart">
+                <img src="" alt="Картинка" class="cart__img">
+                <h4 class="cart__title">Назад в 90-е</h4>
+                <span class="cart__time">90 минут</span>
+                <span class="cart__question">70 вопросов</span>
+                <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
+                <button class="cart__button">Смотреть</button>
+              </div>
+                <div class="cart">
+                <img src="" alt="Картинка" class="cart__img">
+                <h4 class="cart__title">IT-викторина</h4>
+                <span class="cart__time">90 минут</span>
+               <span class="cart__question">70 вопросов</span>
+                <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
+                <button class="cart__button">Смотреть</button>
+              </div>
+            </ul>
           </section>
           <section class="past-games">
             <div class="past-title">
@@ -98,7 +100,8 @@
               <button class="description-button">Подробнее</button>
             </article>
           </section>
-      </main>
+        </main>
+      </div>
     </div>
   </body>
   <footer class="footer">
