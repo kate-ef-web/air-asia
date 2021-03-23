@@ -28,12 +28,12 @@
       <main class="main-content">
         <section class="title">
           <h1 class="title__caption">Интеллектуальный вечер для шумной компнии</h1>
-          <h3 class="title__subtitle">Игры на любой вкус</h3>
+          <h4 class="title__subtitle">Игры на любой вкус</h4>
           <a href="#" class="button">Подробнее</a>
         </section>
         <section class="offers">
           <div class="offers-title">
-            <h2 class="offers-title__title">Новинки недели</h2>
+            <h3 class="offers-title__title">Новинки недели</h3>
             <img src="" alt="Иконка" class="offers-title__icon">
           </div>
           <ul class="offers__list">
@@ -81,8 +81,8 @@
             </li>
             <li class="offers__item">
               <img src="img/quizit.png" alt="Картинка" class="offers__img">
-              <div class="offers__content">
-                <h4 class="offers__title">ШЕ</h4>
+              <div class="offers__content"></div>
+                <h4 class="offers__title">IT-викторина</h4>
                 <div class="offers__features">
                   <div class="offers__feature">
                     <img src="#" alt="Время игры" class="offers__feature__icon">
@@ -102,23 +102,28 @@
             </li>
           </ul>
         </section>
-        <section class="past-games">
-          <div class="past-title">
-            <h2 class="past-title__title">Прошедшие игры</h2>
-          </div>
-          <div class="cart-games">
-            <img src="" alt="Изображение" class="cart-game__elem">
-            <span class="cart-game__date">1 января</span>
-            <h4 class="cart-game__title">Новогодний квиз</h4>
-            <p class="cart-game__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ.
-            </p>
-          </div>
-          <div class="cart-games">
-            <img src="" alt="Изображение" class="cart-games__elem">
-            <span class="cart-game__date">8 марта</span>
-            <h4 class="cart-game__title">Весенняя игра</h4>
-            <p class="cart-game__text">Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ.</p>
-          </div>
+        <section class="past">
+          <ul class="past__list">
+            <div class="past-title">
+              <h3 class="past-title__title">Прошедшие игры</h3>
+            </div> 
+            <li class="past__item">
+              <img src="img/kto_gde_kviz__moskva (1).png" alt="Изображение" class="past__elem">
+              <div class="past__date">1 января</div>
+              <h4 class="past__subtitle">Новогодний квиз</h4>
+              <p class="past__text">
+                Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ.
+              </p>
+            </li>
+            <li class="past__item">
+              <img src="img/kto_gde_kviz__moskva (3).png" alt="Изображение" class="past__elem">
+              <div class="past__date">8 марта</div>
+              <h4 class="past__subtitle">Весенняя игра</h4>
+              <p class="past__text">
+                Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!
+              </p>
+            </li>
+          </ul>
           <div class="paginator">
             <div class="paginator__display">Страница 1 из 7</div>
             <ul class="paginator__list">
@@ -134,14 +139,14 @@
         </section>
         <section class="about">
           <div class="about-image">
-            <img src="" alt="Посетители" class="about-image__elem">
+            <img src="img/kto_gde_kviz__moskva (2).png" alt="Посетители" class="about-image__elem">
           </div>
           <article class="description">
-            <h2 class="description-title">О нас</h2>
-            <p class="description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique ullam
-              officia unde nihil iusto, dolorum recusandae officiis facere odio voluptatem placeat rerum deleniti
-              numquam quibusdam sequi, quas reprehenderit? Vero?</p>
-            <button class="description-button">Подробнее</button>
+            <h3 class="description-title">О нас</h3>
+            <p class="description-text">
+              Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
+            </p>
+            <a href="#" class="button">Подробнее</a>
           </article>
         </section>
       </main>
@@ -154,24 +159,23 @@
   </a>
   <nav class="menu">
     <ul class="menu__list">
-      <li class="menu__item">Главная</li>
-      <li class="menu__item">Игры</li>
-      <li class="menu__item">Отзывы</li>
+      <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">Игры</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
     </ul>
   </nav>
   <nav class="network">
     <ul class="network__list">
-      <li class="network__item"><img src="" alt="Иконка" class="network__icon"></li>
-      <li class="network__item"><img src="" alt="Иконка" class="network__icon"></li>
-      <li class="network__item"><img src="" alt="Иконка" class="network__icon"></li>
-      <li class="network__item"><img src="" alt="Иконка" class="network__icon"></li>
+      <li class="network__item"><a href="#" class="network__link"><img src="#" alt="Telegram" class="network__icon"></a></li>
+      <li class="network__item"><a href="#" class="network__link"><img src="#" alt="Vk" class="network__icon"></a></li>
+      <li class="network__item"><a href="#" class="network__link"><img src="#" alt="Facebook" class="network__icon"></a></li>
+      <li class="network__item"><a href="#" class="network__link"><img src="#" alt="Instagram" class="network__icon"></a></li>
     </ul>
   </nav>
   <address class="contacts">
     <div class="contacts__workhours">Бесплатный звонок по России</div>
     <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
   </address>
-  </div>
 </footer>
 
 </html>
