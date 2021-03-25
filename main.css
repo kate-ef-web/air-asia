@@ -26,6 +26,10 @@ h1, h3, h4, h5{
   font-weight: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .container{
   margin: 0 auto;
   width: 1200px;
@@ -33,8 +37,8 @@ h1, h3, h4, h5{
 
 .header{
   position: relative;
-  height: 126px;
-  margin-bottom: 71px;
+  height: 120px;
+  margin-bottom: 74px;
 }
 
 .logo{
@@ -46,14 +50,14 @@ h1, h3, h4, h5{
 
 .menu{
   position: absolute;
-  top:34px;
-  left: 250px; 
+  top: 28px;
+  left: 407px; 
 }
 
 .menu__item{
   display: inline-block;
   vertical-align: middle;
-  margin-right: 50px;
+  margin-right: 56px;
 }
 .menu__item:last-child{
   margin-right: 0;
@@ -68,14 +72,14 @@ h1, h3, h4, h5{
   position: absolute;
   text-align: right;
   top: 21px;
-  right: 93px;
+  right: 95px;
 }
 
 .contacts__phone{
   font-weight: 400;
   font-style: normal;
   font-size: 26px;
-  line-height: 35px;
+  line-height: 33px;
   text-decoration: none;
   color:#fff;
   margin-bottom: 2px;
@@ -97,18 +101,18 @@ h1{
   font-weight: 700;
   font-size: 58px;
   line-height: 1.1;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .title__subtitle{
   font-weight: 400;
   font-size: 21px;
   line-height: 29px;
-  margin-bottom: 72px;
+  margin-bottom: 69px;
   
 }
 .button{
   border-radius: 5px;
-  padding: 13px 29px;
+  padding: 17px 37px;
   color:#fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -119,28 +123,38 @@ h1{
   font-size: 14px;
 }
 
+.offers{
+  margin-bottom: 127px;
+}
+
 .offers__item{
   display: inline-block;
   margin-right: 21px;
+  min-height: 450px;
+  background: #fff;
+  border-radius: 7px;
 }
 
-.offers__img{
-  width: 362px;
-  height: 144px;
+.offers__header{
+  min-width: 362px;
+  min-height: 144px;
+  margin-bottom: 30px;
+  
 }
 
 .offers__content{
   width: 362px;
   height: 305px;
   left: 389px;
+  padding: 22px 26px;
 }
 
 h3{
   font-weight: 700;
   font-size: 36px;
   line-height: 49px;
-  margin-top: 193px;
-  margin-bottom: 51px;
+  margin-top: 33px;
+  margin-bottom: 23px;
 
 }
 h4{
@@ -155,7 +169,8 @@ h4{
   font-size: 16px;
   line-height: 22px;
   color: #666666;
-  display: inline;
+  display: inline-block;
+  vertical-align: top;
 }
 .offers__text{
   font-weight: 400;
@@ -163,6 +178,11 @@ h4{
   line-height: 21px;
   color: #303030;
 }
+
+.offers__item:last-child{
+margin-right: 0;
+}
+
 .past__img{
   position: relative;
   width: 598px;
