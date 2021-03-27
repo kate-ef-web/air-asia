@@ -34,6 +34,10 @@ p{
   box-sizing: border-box;
 }
 
+.main-page-wrapper{
+  background: url("img/fon1.png") center top no-repeat, url("img/fon2.png") center bottom 200px no-repeat;
+}
+
 .container{
   margin: 0 auto;
   width: 1150px;
@@ -375,6 +379,19 @@ margin-right: 0;
   margin-bottom: 0px;
 }
 
+.button-ghost{
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 18px 39px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 66px;
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+}
+
 .footer-container__content{
   border-top: 1px solid rgba(255,255,255,0.1)
 }
@@ -386,14 +403,15 @@ margin-right: 0;
 
 .footer-menu{
   position: absolute;
-  top: 54px;
-  left: 243px; 
+  top: 30px;
+  left: 288px; 
 }
 
 .socials{
   position: absolute;
-  top:49px;
+  top:27px;
   right: 265px;
+
 }
 
 .socials__item{
