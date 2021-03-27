@@ -384,16 +384,22 @@ margin-right: 0;
   position: relative;
 }
 
+.footer-menu{
+  position: absolute;
+  top: 54px;
+  left: 243px; 
+}
+
 .socials{
   position: absolute;
-  top:40px;
-  right: 250px;
+  top:49px;
+  right: 265px;
 }
 
 .socials__item{
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .socials__item:last-child{
@@ -406,6 +412,12 @@ margin-right: 0;
   width: 36px;
   height: 36px;
 }
+
+.socials__list{
+  width: 174px;
+}
+
+
 
 .contacts__info{
   font-weight: 400;
