@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Quiz-box event агенство</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="wrapper__content">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Quiz-box event агенство</title>
+</head>
+
+<body>
+  <div class="wrapper main-page-wrapper">
+    <section class="hero">
+      <div class="container">
         <header class="header">
           <a href="#" class="logo">
-            <img src="" alt="Логотип компании" class="logo__pic">
+            <img src="img/Quiz-box.png" alt="Логотип компании" class="logo__pic">
           </a>
           <nav class="menu">
             <ul class="menu__list">
@@ -20,113 +25,199 @@
           </nav>
           <address class="contacts">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__workhours">График работы</div>
+            <div class="contacts__dropdown-title">График работы</div>
           </address>
         </header>
+      
         <main class="main-content">
           <section class="title">
-            <h1 class="title__caption">Интеллектуальный вечер для шумной компнии</h1>
-            <h3 class="title__subtitle">Игры на любой вкус</h3>
-            <a href="#" class="button">Подробнее</a>
+            <h1 class="title__caption">Интеллектуальный вечер для шумной компании</h1>
+            <h5 class="title__subtitle">Игры на любой вкус</h5>
+            <a href="#" class="button button--color--violet">Подробнее</a>
           </section>
+
           <section class="offers">
-            <div class="offers-title">
-              <h2 class="offers-title__title">Новинки недели</h2>
-              <img src="" alt="Иконка" class="offers-title__icon">
-            </div>
-            <ul class="offers__list">
-              <li class="offers__item">
-                <img src="img/music-quiz 1.png" alt="Картинка" class="cart__img">
-                <h4 class="cart__title">Музыкальная игра</h4>
-                <span class="cart__time">90 минут</span>
-                <span class="cart__question">70 вопросов</span>
-                <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
-                <button class="cart__button">Смотреть</button>
-              </li>
-                <div class="cart">
-                <img src="img/back.png" alt="Картинка" class="cart__img">
-                <h4 class="cart__title">Назад в 90-е</h4>
-                <span class="cart__time">90 минут</span>
-                <span class="cart__question">70 вопросов</span>
-                <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
-                <button class="cart__button">Смотреть</button>
+            <div class="container">
+              <div class="offers-title">
+                <h3 class="offers-title__title">Новинки недели</h3>
+                <img src="" alt="Иконка" class="offers-title__icon">
               </div>
-                <div class="cart">
-                <img src="img/quizit.png" alt="Картинка" class="cart__img">
-                <h4 class="cart__title">IT-викторина</h4>
-                <span class="cart__time">90 минут</span>
-               <span class="cart__question">70 вопросов</span>
-                <p class="cart__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in culpa nam alias nobis. Nemo minima, ipsum impedit, officia amet ea corrupti dicta quos vitae nihil assumenda ab exercitationem voluptatem?</p>
-                <button class="cart__button">Смотреть</button>
-              </div>
-            </ul>
-          </section>
-          <section class="past-games">
-            <div class="past-title">
-              <h2 class="past-title__title">Прошедшие игры</h2>
-            </div>
-            <div class="cart-games">
-              <img src="img/kto_gde_kviz__moskva (1).png" alt="Изображение" class="cart-game__elem">
-              <span class="cart-game__date">1 января</span>
-              <h4 class="cart-game__title">Новогодний квиз</h4>
-              <p class="cart-game__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ.</p>
-            </div>
-            <div class="cart-games">
-              <img src="img/kto_gde_kviz__moskva (3).png" alt="Изображение" class="cart-games__elem">
-              <span class="cart-game__date">8 марта</span>
-              <h4 class="cart-game__title">Весенняя игра</h4>
-              <p class="cart-game__text">Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ.</p>
-            </div>
-            <div class="paginator">
-              <div class="paginator__display">Страница 1 из 7</div>
-              <ul class="paginator__list">
-                <li class="paginator__item">1</li>
-                <li class="paginator__item">2</li>
-                <li class="paginator__item">3</li>
-                <li class="paginator__item">4</li>
-                <li class="paginator__item">5</li>
-                <li class="paginator__item">6</li>
-                <li class="paginator__item">7</li>
+              <ul class="offers__list">
+                <li class="offers__item">
+                  <div class="offers__header">
+                    <img src="img/music-quiz 1.png" alt="Картинка" class="offers__img">
+                  </div>
+                  <div class="offers__content">
+                    <h4 class="offers__title">Музыкальная игра</h4>
+                    <ul class="offers__features">
+                      <li class="offers__feature">
+                        <img src="img/Vector date.png" alt="Время игры" class="offers__feature__icon">
+                        <div class="offers__feature__text">90 минут</div>
+                      </li>
+                      <li class="offers__feature">
+                        <img src="img/Vector.png" alt="Вопросы" class="offers__feature__icon">
+                        <div class="offers__feature__text">70 вопросов</div>
+                      </li>
+                    </ul>
+                    <p class="offers__text">
+                      Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+                      участия.
+                    </p>
+                    <div class="offers__button-wrapper">
+                      <a href="#" class="button button--color--white">Смотреть</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="offers__item">
+                  <div class="offers__header">
+                    <img src="img/back2.png" alt="Картинка" class="offers__img">
+                  </div>
+                  <div class="offers__content">
+                    <h4 class="offers__title">Назад в 90-е</h4>
+                    <div class="offers__features">
+                      <div class="offers__feature">
+                        <img src="img/Vector date.png" alt="Время игры" class="offers__feature__icon">
+                        <div class="offers__feature__text">90 минут</div>
+                      </div>
+                      <div class="offers__feature">
+                        <img src="img/Vector.png" alt="Вопросы" class="offers__feature__icon">
+                        <div class="offers__feature__text">70 вопросов</div>
+                      </div>
+                    </div>
+                    <p class="offers__text">
+                      Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+                      участия.
+                    </p>
+                    <div class="offers__button-wrapper">
+                      <a href="#" class="button">Смотреть</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="offers__item">
+                  <div class="offers__header">
+                    <img src="img/quizit2.png" alt="Картинка" class="offers__img">
+                  </div>
+                  <div class="offers__content">
+                    <h4 class="offers__title">IT-викторина</h4>
+                    <div class="offers__features">
+                      <div class="offers__feature">
+                        <img src="img/Vector date.png" alt="Время игры" class="offers__feature__icon">
+                        <div class="offers__feature__text">90 минут</div>
+                      </div>
+                      <div class="offers__feature">
+                        <img src="img/Vector.png" alt="Вопросы" class="offers__feature__icon">
+                        <div class="offers__feature__text">70 вопросов</div>
+                      </div>
+                    </div>
+                    <p class="offers__text">
+                      Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+                    участия.
+                    </p>
+                    <div class="offers__button-wrapper">
+                      <a href="#" class="button button--color--white">Смотреть</a>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
-          <section class="about">
-            <div class="about-image">
-              <img src="img/kto_gde_kviz__moskva (2).png" alt="Посетители" class="about-image__elem">
+
+          <section class="past">
+            <div class="container">
+              <h3 class="past-title__title">Прошедшие игры</h3>
+              <ul class="past__list"></ul>
+                <li class="past__item">
+                  <img src="img/kto_gde_kviz__moskva (1).png" alt="Изображение" class="past__img-elem">
+                  <div class="past__content">
+                    <time class="past__content-date">1 января</time>
+                    <h4 class="past__content-subtitle">Новогодний квиз</h4>
+                    <p class="past__content-text">
+                      Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ.
+                    </p>
+                  </div>
+                </li>
+                <li class="past__item">          
+                  <img src="img/kto_gde_kviz__moskva (3).png" alt="Изображение" class="past__elem">
+                    <div class="past__content">
+                      <time class="past__content-date">8 марта</time>
+                      <h4 class="past__content-subtitle">Весенняя игра</h4>
+                      <p class="past__content-text">
+                      Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!
+                      </p>
+                    </div>
+                </li>
+              </ul>
+
+              <div class="paginator">
+                <div class="paginator__display">Страница 1 из 7</div>
+                <ul class="paginator__list">
+                  <li class="paginator__item paginator__item--active"><a href="#" class="paginator__link">1</a></li>
+                  <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+                  <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+                  <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+                  <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+                  <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+                  <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
+                </ul>
+              </div>
             </div>
-            <article class="description">
-              <h2 class="description-title">О нас</h2>
-              <p class="description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique ullam officia unde nihil iusto, dolorum recusandae officiis facere odio voluptatem placeat rerum deleniti numquam quibusdam sequi, quas reprehenderit? Vero?</p>
-              <button class="description-button">Подробнее</button>
-            </article>
+          </section>
+
+          <section class="section">
+            <div class="container">
+              <div class="about">
+                <div class="about__desk">
+                  <h3 class="about-title">О нас</h3>
+                  <div class="about__desk-text">
+                    <p>
+                      Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+                      осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+                      условиях.
+                    </p>
+                  </div>
+                  <a href="#" class="button-ghost">Подробнее</a>
+                </div>
+              </div>
+            </div>
           </section>
         </main>
-      </div>
-    </div>
-  </body>
-  <footer class="footer">
-      <a href="#" class="logo">
-        <img src="" alt="Логотип" class="logo__pic">
-      </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">Главная</li>
-          <li class="menu__item">Игры</li>
-          <li class="menu__item">Отзывы</li>
-        </ul>
-      </nav>
-      <nav class="network">
-        <ul class="network__list">
-          <li class="network__item"><img src="" alt="Иконка" class="network__icon"></li>
-          <li class="network__item"><img src="" alt="Иконка" class="network__icon"></li>
-          <li class="network__item"><img src="" alt="Иконка" class="network__icon"></li>
-          <li class="network__item"><img src="" alt="Иконка" class="network__icon"></li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <div class="contacts__workhours">Бесплатный звонок по России</div>
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-      </address>
-    </div>
-  </footer>
+
+        <footer class="footer-container">
+          <div class="container footer-container__content">
+            <div class="footer">
+              <a href="#" class="logo">
+                <img src="img/Quiz-box.png" alt="Логотип" class="logo__pic">
+              </a>
+              <nav class="footer-menu">
+                <ul class="menu__list">
+                  <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">Игры</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                </ul>
+              </nav>
+              <nav class="socials">
+                <ul class="socials__list">
+                  <li class="socials__item"><a href="#" class="socials__link"><img src="img/telegram.png" alt="Telegram"
+                      class="socials__icon"></a></li>
+                  <li class="socials__item"><a href="#" class="socials__link"><img src="img/vk.png" alt="Vk"
+                      class="socials__icon"></a></li>
+                  <li class="socials__item"><a href="#" class="socials__link"><img src="img/f.png" alt="Facebook"
+                      class="socials__icon"></a></li>
+                  <li class="socials__item"><a href="#" class="socials__link"><img src="img/in.png" alt="Instagram"
+                      class="socials__icon"></a></li>
+                </ul>
+              </nav>
+              <address class="contacts">
+                <div class="contacts__info">Бесплатный звонок по России</div>
+                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              </address>
+            </div>
+          </div>
+        </footer>
+
+      </div>  
+    </section>
+  </div>
+</body>
 </html>
+
