@@ -184,14 +184,13 @@ h4{
 }
 
 .offers__feature{
-  display: inline-block;
-  vertical-align: top;
+
   font-weight: 400;
   font-size: 16px;
   color: #666666;
-  width: 110px;
-  margin-right: 30px;
-  
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 26px;
 }
 
 .offers__feature:last-child{
@@ -200,6 +199,30 @@ h4{
 
 .offers__features{
   margin-bottom: -21px;
+  display: flex;
+  align-items: center;
+}
+
+.offers-info{
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.offers-info__icon{
+  width: 26px;
+  height: 26px;
+  
+  margin-right: 10px;
+  
+}
+
+.offers-info--time .offers-info__icon{
+  background: url("img/Vector\ date.png");
+}
+
+.offers-info--questions .offers-info__icon{
+  background: url("img/Vector.png");
 }
 
 .offers__text{
@@ -258,7 +281,7 @@ margin-right: 0;
   width: 560px;
   vertical-align: top;
   position: relative;
-  border-radius: 6px;
+  border-radius: 6px; 
   overflow: hidden;
 }
 .past__content-date{
