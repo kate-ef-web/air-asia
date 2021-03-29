@@ -156,11 +156,9 @@ h1{
   font-size: 36px;
   line-height: 49px;
   margin-right: -20px;
-  
-}
+ }
 
 .offers-title__title{
-  
   display: inline-block;
 }
 
@@ -184,10 +182,12 @@ h1{
   width: 362px;
 }
 
+.offers__item:last-child{
+  margin-right: 0;
+  }
+
 .offers__header{
   min-height: 144px;
-  
-  
 }
 
 .offers__content{
@@ -195,7 +195,6 @@ h1{
   height: 305px;
   left: 389px;
   padding: 26px 20px;
-  
 }
 
 h4{
@@ -243,7 +242,7 @@ h4{
   background-position: center;
 }
 
-.offers-info--questions .offers-info__icon{
+.offers-info--meal .offers-info__icon{
   background: url("img/meal\ icon.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -255,10 +254,6 @@ h4{
   line-height: 21px;
   color: #303030;
   margin-bottom: 24px;
-}
-
-.offers__item:last-child{
-margin-right: 0;
 }
 
 .offers__button-wrapper{
@@ -283,7 +278,11 @@ margin-right: 0;
   left: 374px;
 } */
 
-.past-title__title{
+.news-list{
+  margin-bottom: 58px;
+}
+
+.news-title__title{
   margin-bottom: 51px;
   font-weight: bold;
   font-size: 36px;
@@ -291,24 +290,7 @@ margin-right: 0;
   color: #fff;
 }
 
-.past__img-elem{
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-
-.past__content{
-  position: absolute;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
-  padding: 33px 30px;
-  min-height: 120px;
-
-}
-.past__item{
+.news__item{
   display: inline-block;
   width: 557px;
   vertical-align: top;
@@ -318,33 +300,46 @@ margin-right: 0;
   margin-right: 31px;
 }
 
-.past__item:last-child{
+.news__item:last-child{
   margin-right: 0;
   }
 
-.past__content-date{
+.news__img-elem{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.news__content{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  padding: 33px 30px;
+  min-height: 120px;
+}
+
+.news__content-date{
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #fff;
   margin-bottom: 12px;
 }
-.past__content-subtitle{
+.news__content-subtitle{
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   color: #fff;
   margin-bottom: 3px;
 }
-.past__content-text{
+.news__content-text{
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #fff;
-}
-
-.past__list{
-  margin-bottom: 58px;
 }
 
 .paginator{
