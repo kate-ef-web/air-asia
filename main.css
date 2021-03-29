@@ -136,13 +136,26 @@ h1{
   color:#fff;
 }
 
+/* h3{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  margin-right: 8px;
+  color: #000;
+} */
+
 .offers{
   margin-bottom: 127px;
 }
 
-.offers-title{
+.offers-title__title{
   width: 306px;
   margin-bottom: 51px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  margin-right: -20px;
   
 }
 
@@ -167,6 +180,7 @@ h1{
   height: 450px;
   background: #fff;
   border-radius: 7px;
+  overflow: hidden;
   width: 362px;
 }
 
@@ -182,13 +196,6 @@ h1{
   left: 389px;
   padding: 26px 20px;
   
-}
-
-h3{
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 49px;
-  margin-right: 8px;
 }
 
 h4{
@@ -225,16 +232,21 @@ h4{
 }
 
 .offers-info__icon{
-  width: 26px;
-  height: 26px;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
 }
 
 .offers-info--time .offers-info__icon{
   background: url("img/calendar\ icon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .offers-info--questions .offers-info__icon{
   background: url("img/meal\ icon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .offers__text{
@@ -271,8 +283,12 @@ margin-right: 0;
   left: 374px;
 } */
 
-.past-title{
+.past-title__title{
   margin-bottom: 51px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #fff;
 }
 
 .past__img-elem{
@@ -418,7 +434,7 @@ margin-right: 0;
   
 }
 
-  h3 .about__title{
+.about__desk-title{
   font-weight: 700;
   font-size: 36px;
   line-height: 49px;
