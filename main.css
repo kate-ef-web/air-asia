@@ -313,7 +313,7 @@ margin-bottom: 146px;
   margin-right: 0;
   }
 
-.news__img{
+.news-card__img{
   display: block;
   width: 100%;
   height: 100%;
@@ -321,7 +321,7 @@ margin-bottom: 146px;
 }
 
 
-.news__content{
+.news-card__content{
   position: absolute;
   bottom: 0%;
   left: 0%;
@@ -330,21 +330,21 @@ margin-bottom: 146px;
   min-height: 120px;
 }
 
-.news__content-date{
+.card__content-date{
   font-weight: 400;
   font-size: 14px;
   line-height: 29px;
   color: #fff;
   margin-bottom: 12px;
 }
-.news__content-subtitle{
+.card__content-subtitle{
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   color: #fff;
   margin-bottom: 5px;
 }
-.news__content-text{
+.card__content-text{
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -422,7 +422,7 @@ margin-bottom: 146px;
   vertical-align: top;
   display: block;
   width: 486px;
-  min-height: 502px;
+  min-height: 506px;
   background: url("img/about\ 1.jpg") center center / cover; no-repeat;
   border-radius: 5px;
 }
@@ -431,14 +431,14 @@ margin-bottom: 146px;
   background: url("img/about\ 2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 192px 66px 81px;
+  padding: 67px 202px 66px 77px;
   display: inline-block;
   vertical-align: top;
   width: 780px;
   min-height: 455px;
   position: absolute;
   bottom: 50px;
-  right: 0px;
+  right: 17px;
   border-radius: 5px;
 }
 
@@ -490,14 +490,14 @@ margin-bottom: 146px;
 
 .footer__menu{
   position: absolute;
-  top: 40px;
-  left: 165px;
+  top: 57px;
+  left: 161px;
 }
 
 .socials{
   position: absolute;
-  top:35px;
-  right: 280px;
+  top:51px;
+  right: 276px;
 
 }
 
@@ -526,12 +526,42 @@ margin-bottom: 146px;
   width: 174px;
 }
 
+.footer__contacts {
+  position: absolute;
+  text-align: right;
+  top: 44px;
+  right: 13px;
+}
 
-
-.contacts__info{
+.footer__contacts-info{
   font-weight: 400;
   font-size: 11px;
   line-height: 20px;
   color: #9A9A9A;
   font-style: normal;
+  text-decoration: none;
+  color: #9A9A9A;
 }
+
+.footer__contacts-phone{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 35px;
+  text-decoration: none;
+  color:#fff;
+  margin-bottom: 2px;
+}
+
+.footer__logo{
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+/* .contacts__dropdown-title{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1px;
+  text-decoration: underline */
