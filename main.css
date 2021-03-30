@@ -45,27 +45,27 @@ p{
 
 .header{
   position: relative;
-  height: 100px;
-  margin-bottom: 83px;
+  min-height: 100px;
+  margin-bottom: 90px;
 }
 
 .logo{
   display: inline-block;
   position: absolute;
-  top: 29px;
+  top: 23px;
   left: 0px;
 }
 
 .menu{
   position: absolute;
-  top: 35px;
-  left: 180px; 
+  top: 32px;
+  left: 164px; 
 }
 
 .menu__item{
   display: inline-block;
   vertical-align: middle;
-  margin-right: 54px;
+  margin-right: 50px;
 }
 .menu__item:last-child{
   margin-right: 0;
@@ -76,11 +76,15 @@ p{
   text-decoration: none;
 }
 
+.menu__link:hover{
+  color: #F5170E;
+}
+
 .contacts{
   position: absolute;
   text-align: right;
-  top: 24px;
-  right: 13px;
+  top: 21px;
+  right: 11px;
 }
 
 .contacts__phone{
@@ -96,14 +100,14 @@ p{
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 1px;
   text-decoration: underline;
   font-family: 'Open Sans';
 }
 
 .title{
   width: 511px;
-  margin-bottom: 246px;
+  margin-bottom: 247px;
   
 }
 
@@ -111,18 +115,18 @@ h1{
   font-weight: 700;
   font-size: 72px;
   line-height: 98px;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 .title__subtitle{
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-  margin-bottom: 33px;
+  margin-bottom: 27px;
   
 }
 .button{
   border-radius: 35px;
-  padding: 18px 39px; 
+  padding: 18px 33px; 
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
@@ -145,26 +149,31 @@ h1{
 } */
 
 .offers{
-  margin-bottom: 127px;
+  margin-top: 247px;
+  margin-bottom: 121px;
 }
 
-.offers-title__title{
-  width: 306px;
+.offers__header{
+  width: 334px;
   margin-bottom: 51px;
+  
+ }
+
+.offers__title{
+  display: inline-block;
   color: #fff;
   font-weight: bold;
   font-size: 36px;
   line-height: 49px;
-  margin-right: -20px;
- }
-
-.offers-title__title{
-  display: inline-block;
+  margin-right: 12px;
 }
 
-.offers-title__icon{
-  display: inline-block;
-  
+.offers__icon{
+  display: inline-block; 
+}
+
+.offers__img{
+  min-height: 144px;
 }
 
 /* .offers__list{
@@ -174,8 +183,8 @@ h1{
 
 .offers__item{
   display: inline-block;
-  margin-right: 27px;
-  height: 450px;
+  margin-right: 24px;
+  min-height: 450px;
   background: #fff;
   border-radius: 7px;
   overflow: hidden;
@@ -186,15 +195,11 @@ h1{
   margin-right: 0;
   }
 
-.offers__header{
-  min-height: 144px;
-}
-
 .offers__content{
   width: 362px;
-  height: 305px;
+  height: 300px;
   left: 389px;
-  padding: 26px 20px;
+  padding: 28px 21px;
 }
 
 h4{
@@ -202,13 +207,13 @@ h4{
   font-size: 24px;
   line-height: 33px;
   color: #000;
-  margin-bottom: 23px;
+  margin-bottom: 16px;
 }
 
 .offers__features{
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 19px;
   width: 280px;
 }
 
@@ -217,7 +222,7 @@ h4{
   font-weight: 400;
   font-size: 16px;
   color: #666666;
-  margin-right: 28px;
+  margin-right: 29px;
   
 }
 
@@ -225,30 +230,30 @@ h4{
   margin-right: 0;
 }
 
-.offers-info{
+.offer-info{
   display: flex;
   align-items: center;
 }
 
-.offers-info__icon{
+.offer-info__icon{
   width: 36px;
   height: 36px;
   margin-right: 10px;
 }
 
-.offers-info--time .offers-info__icon{
+.offer-info--time .offer-info__icon{
   background: url("img/calendar\ icon.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.offers-info--meal .offers-info__icon{
+.offer-info--meal .offer-info__icon{
   background: url("img/meal\ icon.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.offers__text{
+.offer__text{
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -256,7 +261,7 @@ h4{
   margin-bottom: 24px;
 }
 
-.offers__button-wrapper{
+.offer__button-wrapper{
   text-align: left;
 }
 
@@ -278,11 +283,15 @@ h4{
   left: 374px;
 } */
 
-.news-list{
-  margin-bottom: 58px;
+.news{
+margin-bottom: 146px;
 }
 
-.news-title__title{
+.news__list{
+  margin-bottom: 52px;
+}
+
+.news__title{
   margin-bottom: 51px;
   font-weight: bold;
   font-size: 36px;
@@ -297,14 +306,14 @@ h4{
   position: relative;
   border-radius: 6px; 
   overflow: hidden;
-  margin-right: 31px;
+  margin-right: 22px;
 }
 
 .news__item:last-child{
   margin-right: 0;
   }
 
-.news__img-elem{
+.news__img{
   display: block;
   width: 100%;
   height: 100%;
@@ -317,14 +326,14 @@ h4{
   bottom: 0%;
   left: 0%;
   right: 0%;
-  padding: 33px 30px;
+  padding: 4px 27px;
   min-height: 120px;
 }
 
 .news__content-date{
   font-weight: 400;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 29px;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -333,7 +342,7 @@ h4{
   font-size: 24px;
   line-height: 36px;
   color: #fff;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 .news__content-text{
   font-weight: 400;
@@ -344,7 +353,7 @@ h4{
 
 .paginator{
   text-align: center;
-  margin-bottom: 152px;
+  
 }
 
 .paginator__display{
@@ -353,7 +362,7 @@ h4{
   line-height: 20px;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 25px;
+  margin-right: 17px;
   
 }
 .paginator__list{
@@ -401,32 +410,36 @@ h4{
   color: #F5170E;
 }
 
-.about{
-  margin-bottom: 109px;
+.about__item{
+  position: relative;
+  padding-bottom: 100px;
   
 }
 
-.about:before{
+.about__item:before{
   content: "";
   display:inline-block;
   vertical-align: top;
   display: block;
-  width: 450px;
-  height: 502px;
+  width: 486px;
+  min-height: 502px;
   background: url("img/about\ 1.jpg") center center / cover; no-repeat;
-  
+  border-radius: 5px;
 }
 
 .about__desk{
   background: url("img/about\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 70px 192px 66px 81px;
   display: inline-block;
   vertical-align: top;
   width: 780px;
-  height: 455px;
-  margin-left: -142px;
-  
-  
+  min-height: 455px;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+  border-radius: 5px;
 }
 
 .about__desk-title{
@@ -470,21 +483,21 @@ h4{
   border-top: 1px solid rgba(255,255,255,0.1)
 }
 
-.footer{
-  height: 146px;
+.footer__item{
+  min-height: 150px;
   position: relative;
 }
 
-.footer-menu{
+.footer__menu{
   position: absolute;
-  top: 34px;
-  left: 194px;
+  top: 40px;
+  left: 165px;
 }
 
 .socials{
   position: absolute;
-  top:27px;
-  right: 265px;
+  top:35px;
+  right: 280px;
 
 }
 
@@ -503,6 +516,10 @@ h4{
   text-decoration: none;
   width: 36px;
   height: 36px;
+}
+
+.socials__link:hover{
+  background: #F5170E;
 }
 
 .socials__list{
