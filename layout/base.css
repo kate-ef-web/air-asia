@@ -1,0 +1,66 @@
+body{
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-style: normal;
+  background: #001821;
+  color:#fff;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.body--color-light{
+  background: #F2F2F2;
+  
+}
+
+a {
+  color: inherit;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h3, h4, h5{
+  margin: 0;
+  font-weight: normal;
+}
+
+p{
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper{
+  overflow:hidden;
+  min-width: 1150px;
+}
+
+.main-page-wrapper{
+  background: url("../img/fon1.png") center top no-repeat, url("../img/fon\ 2.png") center bottom 260px no-repeat;
+}
+
+.services-page-wrapper{
+  background: url("../imgservices/headline\ fon.png") center top no-repeat;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.footer-container__content{
+  border-top: 1px solid rgba(255,255,255,0.1)
+}
+
+.footer--color-dark{
+  background: url("../imgservices/фон\ \(4\).png");
+}

@@ -1,0 +1,26 @@
+.partners{
+  background: #F4F5F5;
+  
+}
+
+.partners__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #1A1B1E;
+  padding-top: 88px;
+  padding-bottom: 99px;
+}
+
+.partners__list{
+  display: inline-flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between;
+  align-items: stretch; */
+  padding-bottom: 124px;
+  
+}
+
+.partners__item{
+  width: calc(100% / 9 - 30);
+}
