@@ -1,0 +1,17 @@
+.footer__item{
+  min-height: 150px;
+  position: relative;
+}
+
+.footer__menu{
+  position: absolute;
+  top: 57px;
+  left: 161px;
+}
+
+.footer__logo{
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}

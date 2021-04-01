@@ -1,0 +1,18 @@
+.title{
+  width: 45%;
+  margin-bottom: 247px;
+  
+}
+
+h1{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 25px;
+}
+.title__subtitle{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 27px;  
+}
