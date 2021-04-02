@@ -1,6 +1,6 @@
 .partners{
-  background: #F4F5F5;
-  
+  background: #e4e4e4;
+  padding: 47px 0;
 }
 
 .partners__title{
@@ -8,19 +8,28 @@
   font-size: 48px;
   line-height: 65px;
   color: #1A1B1E;
-  padding-top: 88px;
-  padding-bottom: 99px;
+  margin-bottom: 73px;
+  /* padding-top: 88px;
+  padding-bottom: 99px; */
 }
 
 .partners__list{
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between;
-  align-items: stretch; */
-  padding-bottom: 124px;
-  
+  justify-content: space-between;
+  margin-bottom: 80px; 
 }
 
-.partners__item{
-  width: calc(100% / 9 - 30);
+.partners__item{ 
+  margin-right: -8px;
+  margin-left: -20px;
+}
+
+.partners__link{
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
 }

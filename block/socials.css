@@ -1,6 +1,5 @@
 .socials{
   /* margin-right: 73px; */
-
 }
 
 .socials__list{
@@ -10,7 +9,7 @@
 
 .socials__item{
   margin-right: 10px;
-  display: inline-block;
+  display: inline-flex;
   vertical-align: middle;
 }
 

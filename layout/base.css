@@ -1,3 +1,7 @@
+html, body{
+  height: 100%;
+}
+
 body{
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-style: normal;
@@ -39,22 +43,38 @@ p{
   box-sizing: border-box;
 }
 
+.top-line{
+  /* min-height: 412px; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 98px;
+  background: url("../imgservices/headline\ fon.png") center top no-repeat
+}
+
 .wrapper{
   overflow:hidden;
-  min-width: 1150px;
+  min-width: 1200px;
+  min-height: 100%;
 }
 
 .main-page-wrapper{
   background: url("../img/fon1.png") center top no-repeat, url("../img/fon\ 2.png") center bottom 260px no-repeat;
 }
 
-.services-page-wrapper{
-  background: url("../imgservices/headline\ fon.png") center top no-repeat;
-}
 
 .container{
   margin: 0 auto;
   width: 1150px;
+  
+}
+
+.container__top-line{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1150px;
+  justify-content: space-between;
 }
 
 .footer-container__content{

@@ -1,5 +1,5 @@
 .menu__item{
-  display: inline-block;
+  display: inline-flex;
   margin-right: 50px;
 }
 .menu__item:last-child{
