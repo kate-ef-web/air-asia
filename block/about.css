@@ -9,7 +9,7 @@
   vertical-align: top;
   width: 486px;
   min-height: 506px;
-  background: url("../img/about\ 1.jpg") center center / cover; no-repeat;
+  background: url("../img/about\ 1.jpg") center center / cover no-repeat;
   border-radius: 5px;
 }
 
@@ -27,6 +27,7 @@
   right: 17px; 
   border-radius: 5px;
   margin-top: 108px;
+  
 }
 
 .about__desk-title{
