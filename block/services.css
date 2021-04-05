@@ -1,16 +1,13 @@
 .page-content{
-  margin-bottom: 91px;
+  /* margin-bottom: 91px; */
+  padding-top: 98px;
+  padding-bottom: 91px;
 }
 
-/* .service__catalog{
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 70px;
-} */
 
 .service__card{
   display: flex;
-  padding-top: 31px;
+  /* padding-top: 49px; */
   padding-bottom: 31px;
   
 }

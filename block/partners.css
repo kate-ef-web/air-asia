@@ -1,6 +1,6 @@
 .partners{
   background: #e4e4e4;
-  padding: 47px 0;
+  padding: 88px 0px 117px 0px;
 }
 
 .partners__title{
@@ -9,27 +9,27 @@
   line-height: 65px;
   color: #1A1B1E;
   margin-bottom: 73px;
-  /* padding-top: 88px;
-  padding-bottom: 99px; */
 }
 
 .partners__list{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 80px; 
+  margin-top: -70px;
 }
 
 .partners__item{ 
-  margin-right: -8px;
-  margin-left: -20px;
+  /* margin-right: -8px;
+  margin-left: -20px; */
+  
 }
 
 .partners__link{
   text-decoration: none;
   display: flex;
-  width: 270px;
-  height: 110px;
   align-items: center;
   justify-content: center;
+  min-height: 67px;
+  min-width: 231px;
+  margin-top: 70px;
 }

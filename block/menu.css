@@ -1,6 +1,10 @@
+.menu {
+  margin-left: 79px;
+}
+
 .menu__item{
   display: inline-flex;
-  margin-right: 50px;
+  margin-right: 54px;
 }
 .menu__item:last-child{
   margin-right: 0;

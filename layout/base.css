@@ -30,7 +30,7 @@ ul li {
   list-style: none;
 }
 
-h1, h3, h4, h5{
+h1, h2, h3, h4, h5{
   margin: 0;
   font-weight: normal;
 }
@@ -47,7 +47,6 @@ p{
   /* min-height: 412px; */
   display: flex;
   flex-direction: column;
-  margin-bottom: 98px;
   background: url("../imgservices/headline\ fon.png") center top no-repeat
 }
 

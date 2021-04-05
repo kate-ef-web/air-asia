@@ -5,11 +5,6 @@
   height: 146px;
 }
 
-/* .footer__item{
-  display: inline-block;
-  margin-right: 50px;
-} */
-
 .footer__col{
   display: flex;
   align-items: center;
@@ -17,26 +12,6 @@
 
 .footer__col--align--right{
   justify-content: flex-end;
-}
-
-.footer__menu{
-  /* position: absolute; */
-  /* top: 57px;
-  left: 161px; */
-}
-
-.footer__logo{
-  /* display: inline-block;
-  position: absolute; */
-  /* top: 50px;
-  left: 0px; */
-}
-
-.footer__contacts {
-  /* position: absolute;
-  text-align: right; */
-  /* top: 44px;
-  right: 13px; */
 }
 
 .footer__contacts-info{

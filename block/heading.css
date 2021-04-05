@@ -1,10 +1,10 @@
-.heading{
+/* .heading{
   width: 45%;
   margin-bottom: 87px;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   
-}
+} */
   
 .heading__title{
   font-weight: 700;
