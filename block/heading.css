@@ -34,13 +34,17 @@
   padding-left: 5px;
 }
 
-.breadcrumbs__item:last-child:after{
+/* .breadcrumbs__item:last-child:after{
   display: none;
-}
+} */
 
 .breadcrumbs__link--active{
   width: 700;
   font-size: 14px;
   color: #9A9A9A;
   padding-left: 5px;
+}
+
+.breadcrumbs__link:hover{
+  opacity: 0.4;
 }
