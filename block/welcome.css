@@ -44,7 +44,7 @@
 }
 
 .welcome__button:hover{
-    background: #FFF;
-    color:#F5170E;
-    border: 1px solid #F5170E;
+    background: #DA0100;
+    color:#fff;
+    cursor: pointer;
   }

@@ -1,6 +1,6 @@
 .partners{
   background: #e4e4e4;
-  padding: 88px 0px 117px 0px;
+  padding: 47px 0;
 }
 
 .partners__title{
@@ -18,6 +18,10 @@
   margin-top: -70px;
 }
 
+.partners__item{
+  
+}
+
 .partners__link{
   text-decoration: none;
   display: flex;
@@ -26,4 +30,10 @@
   min-height: 67px;
   min-width: 231px;
   margin-top: 70px;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover{
+  filter: grayscale(0);
+  cursor: pointer;
 }

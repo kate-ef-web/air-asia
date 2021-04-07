@@ -17,4 +17,5 @@
 
 .menu__link:hover{
   color: #F5170E;
+  cursor: pointer;
 }
