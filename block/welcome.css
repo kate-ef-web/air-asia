@@ -1,26 +1,21 @@
 .welcome-page-wrapper{
-    background: url("../imgfon/bg.png") center no-repeat;
+    background: url("../imgfon/bg.png") center bottom / cover no-repeat;
     display: flex;
-   /*  overflow:hidden;
-    min-width: 1920px;
-    min-height: 100%; */
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
-.welcome{
+.central{
     display: inline-flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    margin: auto;
 }
-
-.welcome__logo{
-    display: block;
-  }
 
 .welcome__title{
     margin-bottom: 52px;
@@ -47,4 +42,36 @@
     background: #DA0100;
     color:#fff;
     cursor: pointer;
+}
+
+.central__asia{
+  opacity: 0;
+  animation: zoom 1s linear forwards;
+}
+
+@keyframes zoom{
+  from{
+    transform: scale(.7);
   }
+
+  20%{
+    transform: scale(1.15);
+  }
+
+  40%{
+    transform: scale(.9);
+  }
+
+  60%{
+    transform: scale(1.1);
+  }
+
+  80%{
+    transform: scale(.9);
+  }
+
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
