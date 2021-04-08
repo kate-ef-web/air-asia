@@ -7,12 +7,12 @@
   background: #F5170E;
   display: inline-block;
   font-size: 14px;
+  border: 1px solid #F5170E;
 }
 
 .button:hover{
   background: #FFF;
-  color:#F5170E;
-  border: 1px solid #F5170E;
+  color:#F5170E;  
 }
 
 .button--color--white{
