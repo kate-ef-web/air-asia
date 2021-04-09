@@ -1,0 +1,201 @@
+.reviews__list{
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 76px;
+}
+
+.reviews__item{
+  margin-bottom: 17px;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 32px 33px;
+  background: #e9e6e6;
+  border-radius: 5px;
+}
+
+.review__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.avatar{
+  width: 142px;
+  height: 142px;
+  margin-right: 22px;
+}
+
+.review__name{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color:#1A1B1E;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+.review__name:after{
+  content: url("../imgreview/vk.png");
+  height: 29px;
+  margin-left: 10px;
+}
+
+.review__name:hover{
+  color:#2E77A4;
+  text-decoration: underline;
+}
+
+.review__tags{
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag{
+  font-size: 13px;
+  color: #303030;
+  padding: 9px 17px;
+  border-radius: 50px;
+  background: #E7E7E7;
+}
+
+.tag--bg--green{
+  background: #B9EAE4;
+}
+
+.review__subtitle{
+  font-weight: bold;
+  font-size: 30px;
+  color: #1A1B1E;
+  margin-bottom: 13px;
+}
+
+.review__text{
+  color: #818181;
+  margin-bottom: 48px;
+}
+
+.review__date{
+  font-size: 14px;
+  color: #1A1B1E;
+  font-weight: bold;
+}
+
+.separator{
+  background: #f7cfc8 url("../imgreview/people\ fon.png") right 30% bottom no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.separator__content{
+  max-width: 50%;
+}
+
+.separator__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #fff;
+}
+
+.feedback{
+  padding-top: 62px;
+  padding-bottom: 96px;
+}
+
+.feedback--bg--grey{
+  background: #F4F5F5;
+}
+
+.feedback__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #1A1B1E;
+  
+  margin-bottom: 57px;
+}
+
+.form__controls{
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.form__controls-title{
+  width: 40%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1A1B1E;
+}
+
+.controls{
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.controls__item{
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+
+.form__row{
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form__input{
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 4px;
+  border: none;
+  background:  #FFF;
+  padding: 20px 30px;
+  color: #1A1B1E;
+  font-size: 18px;
+}
+
+.form__input::placeholder{
+  color:#666666;
+}
+
+.form__input:last-child{
+  margin-right: 0px;
+}
+
+.form__input--textarea{
+  height: 235px;
+  width: 1142px;
+}
+
+.controls__elem{
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+  background: #B9EAE4;
+}
+
+.controls__checkbox{
+  display: none;
+}
+
+.form__buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button{
+
+  margin-right: 17px;
+}
+
+.form__button:last-child{
+  margin-right: 0px;
+}
