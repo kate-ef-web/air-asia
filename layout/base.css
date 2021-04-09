@@ -13,7 +13,7 @@ body{
 }
 
 .body--color-light{
-  background: #F2F2F2;
+  background: #FFF;
   
 }
 
@@ -44,7 +44,7 @@ p{
 }
 
 .top-line{
-  /* min-height: 412px; */
+  min-height: 412px;
   display: flex;
   flex-direction: column;
   background: url("../imgservices/headline\ fon.png") center top no-repeat
@@ -59,8 +59,6 @@ p{
 .main-page-wrapper{
   background: url("../img/fon1.png") center top no-repeat, url("../img/fon\ 2.png") center bottom 260px no-repeat;
 }
-
-
 
 .container{
   margin: 0 auto;
