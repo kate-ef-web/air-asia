@@ -4,11 +4,13 @@
   padding-bottom: 91px;
 }
 
+.service{
+  margin-bottom: 70px;
+}
 
 .service__card{
   display: flex;
-  /* padding-top: 49px; */
-  padding-bottom: 31px;
+  padding-bottom: 45px;
   
 }
 
@@ -17,8 +19,8 @@
 }
 
 .service__img{
-  width: 460px;
-  margin-right: 56px;
+  width: 457px;
+  margin-right: 60px;
   
 }
 
@@ -27,14 +29,15 @@
   font-size: 36px;
   line-height: 49px;
   color: #000000;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
+  margin-top: 14px;
 }
 
 .service__content{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 627px;
+  width: 628px;
 }
 
 .service__info{
@@ -44,5 +47,5 @@
   color:#303030;
   flex-direction: column;
   justify-content: flex-start;
-  margin-bottom: 34px;
+  margin-bottom: 17px;
 }

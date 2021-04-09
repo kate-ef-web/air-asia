@@ -10,8 +10,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 64px;
-  padding-top: 26px;
+  margin-bottom: 14px;
+  padding-top: 25px;
 }
 
 .header__col{
