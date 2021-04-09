@@ -1,5 +1,4 @@
 .page-content{
-  /* margin-bottom: 91px; */
   padding-top: 98px;
   padding-bottom: 91px;
 }
@@ -24,6 +23,13 @@
   
 }
 
+.service__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 628px;
+}
+
 .service__title{
   font-weight: bold;
   font-size: 36px;
@@ -31,13 +37,6 @@
   color: #000000;
   margin-bottom: 30px;
   margin-top: 14px;
-}
-
-.service__content{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 628px;
 }
 
 .service__info{
