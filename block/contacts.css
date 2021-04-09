@@ -21,7 +21,8 @@
 
 .dropdown:hover .dropdown__menu{
   /* display: block; */
-  left: 0;
+  right: 0;
+  left: auto;
   opacity: 1;
 }
 
