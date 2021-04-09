@@ -17,7 +17,7 @@
         <div class="container__top-line">
           <header class="header header--secondary">
             <div class="header__col">
-              <a href="./index.html" class="logo">
+              <a href="./index.html" class="logo logo__secondary">
                 <img src="img/лого.png" alt="Логотип компании" class="logo__pic">
               </a>
               <nav class="menu">
@@ -175,9 +175,79 @@
 
       <section class="separator">
         <div class="container">
-          <div class="separator__content">
-            <h2 class="separator__title">Подберем тур по вашим пожеланиям</h2>
-          </div>
+          <separator class="separator__item">
+            <div class="separator__content">
+              <h2 class="separator__title">Подберем тур по вашим пожеланиям</h2>
+            </div>
+          </separator>
+        </div>
+      </section>
+
+      <section class="feedback feedback--bg--grey">
+        <div class="container">
+          <h2 class="feedback__title">Оставьте отзыв</h2>
+          <form class="form">
+            <div class="form__row">
+              <input type="text" placeholder="ФИО" class="form__input">
+              <input type="text" placeholder="Ссылка на профиль в Vk" class="form__input">
+            </div>
+            <div class="form__row">
+              <textarea placeholder="Напишите свой честный отзыв ;)" class="form__input form__input--textarea"></textarea>
+            </div>
+            <div class="form__controls">
+              <div class="form__controls-title">
+              Какими услугами компании пользуетесь?
+              </div>
+              <ul class="controls">
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input type="checkbox" class="controls__checkbox">
+                    <div class="tag controls__tag">Остров обезьян</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input type="checkbox" class="controls__checkbox">
+                    <div class="tag controls__tag">Тур по Тайланду</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input type="checkbox" class="controls__checkbox">
+                    <div class="tag controls__tag">Водопад Янг-бей</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input type="checkbox" class="controls__checkbox">
+                    <div class="tag controls__tag">Тур по Индонезии</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input type="checkbox" class="controls__checkbox">
+                    <div class="tag controls__tag">Никакими</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input type="checkbox" class="controls__checkbox">
+                    <div class="tag controls__tag">Тур по Бали</div>
+                  </label>
+                </li>
+                <li class="controls__item">
+                  <label class="controls__elem">
+                    <input type="checkbox" class="controls__checkbox">
+                    <div class="tag controls__tag">Другое</div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="form__buttons">
+              <button type="submit" class="button form__button button--color-black">Очистить</button>
+              <button type="submit" class="button form__button button--color-orange">Отправить</button >
+            </div>
+          </form>
         </div>
       </section>
 
@@ -185,7 +255,7 @@
         <div class="container">
           <div class="footer">
             <div class="footer__col">
-              <a href="./index.html" class="logo">
+              <a href="./index.html" class="logo__secondary">
                 <img src="img/лого.png" alt="Логотип" class="logo-pic">
               </a>
               <nav class="menu">
