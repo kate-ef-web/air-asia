@@ -1,0 +1,39 @@
+.partners{
+  background: #e4e4e4;
+  padding: 47px 0;
+}
+
+.partners__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #1A1B1E;
+  margin-bottom: 73px;
+}
+
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -70px;
+}
+
+.partners__item{
+  
+}
+
+.partners__link{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 67px;
+  min-width: 231px;
+  margin-top: 70px;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+}

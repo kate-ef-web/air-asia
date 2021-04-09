@@ -1,0 +1,129 @@
+.offers{
+  margin-top: 247px;
+  margin-bottom: 121px;
+}
+
+.offers__header{
+  width: 35%;
+  margin-bottom: 51px;
+  display: flex;
+  
+}
+
+.offers__title{
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  margin-right: 12px;
+  display: flex;
+  
+}
+
+.offers__icon{
+  width: 21px;
+  height: 28px;
+  display: flex;
+  align-self: center;
+}
+
+.offers__list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__img{
+  min-height: 144px;
+}
+
+.offers__item{
+  min-height: 450px;
+  background: #fff;
+  border-radius: 7px;
+  overflow: hidden;
+  width: calc(100% / 3 - 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.offers__item:last-child{
+  margin-right: 0;
+}
+
+.offers__content{
+  width: 362px;
+  height: 300px;
+  left: 389px;
+  padding: 28px 21px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.offers__subtitle{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.offers__features{
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+  width: 280px;
+}
+
+.offers__feature{
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  margin-right: 29px;
+  
+}
+
+.offers__feature:last-child{
+  margin-right: 0;
+}
+
+.offer-info{
+  display: flex;
+  align-items: center;
+}
+
+.offer-info__icon{
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.offer-info--time .offer-info__icon{
+  background: url("../img/calendar\ icon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.offer-info--meal .offer-info__icon{
+  background: url("../img/meal\ icon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.offer__text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+  margin-bottom: 24px;
+}
+
+.offer__button{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: auto;
+}
