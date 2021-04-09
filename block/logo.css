@@ -1,3 +1,9 @@
 .logo{
   display: block;
 }
+
+.logo__secondary .logo__pic{
+  display: block;
+  width: 98px;
+  height: 42px;
+}

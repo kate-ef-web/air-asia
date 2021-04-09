@@ -8,6 +8,8 @@
   display: inline-block;
   font-size: 14px;
   border: 1px solid #F5170E;
+  color: #FFF;
+  cursor: pointer;
 }
 
 .button:hover{
@@ -26,3 +28,18 @@
   background: #F5170E;
   color:#FFF;
 } 
+
+.button--color-black{
+  background: #2B2B2B;
+  border: none;
+}
+
+.button--color-black:hover{
+  background: #8E8E8E;
+  color: #fff;
+}
+
+.button--color-orange:hover{
+  background: #DA0100;
+  color: #FFF;
+}
