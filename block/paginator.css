@@ -13,7 +13,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  margin-right: 17px;  
+  margin-right: 37px;  
 }
 
 .paginator__list{
@@ -27,18 +27,6 @@
 
 .paginator__item{
   text-align: center;
-}
-
-.paginator__link-active{
-  color: #F5170E;
-  background: #fff;
-  text-decoration: none;
-  display: block;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  font-weight: bold;
-  line-height: 32px;
 }
 
 .paginator__link{

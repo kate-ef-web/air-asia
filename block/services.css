@@ -1,7 +1,6 @@
 .page-content{
-  /* margin-bottom: 91px; */
   padding-top: 98px;
-  padding-bottom: 91px;
+  padding-bottom: 89px;
 }
 
 .service{
@@ -15,22 +14,13 @@
 }
 
 .service__card:last-child{
-  padding-bottom: 69px;
+  padding-bottom: 59px;
 }
 
 .service__img{
-  width: 457px;
-  margin-right: 60px;
+  width: 460px;
+  margin-right: 57px;
   
-}
-
-.service__title{
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 49px;
-  color: #000000;
-  margin-bottom: 30px;
-  margin-top: 14px;
 }
 
 .service__content{
@@ -38,6 +28,15 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 628px;
+}
+
+.service__title{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+  margin-bottom: 29px;
+  margin-top: 14px;
 }
 
 .service__info{

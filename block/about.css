@@ -7,7 +7,7 @@
   content: "";
   display:inline-block;
   vertical-align: top;
-  width: 486px;
+  width: 490px;
   min-height: 506px;
   background: url("../img/about\ 1.jpg") center center / cover no-repeat;
   border-radius: 5px;
@@ -17,11 +17,11 @@
   background: url("../img/about\ 2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 67px 202px 66px 77px;
+  padding: 70px 202px 60px 81px;
   display: inline-block;
   vertical-align: top;
   width: 780px;
-  min-height: 455px;
+  min-height: 460px;
   position: absolute;
   bottom: 50px;
   right: 17px; 

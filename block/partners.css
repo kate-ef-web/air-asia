@@ -1,6 +1,7 @@
 .partners{
-  background: #e4e4e4;
-  padding: 47px 0;
+  background: #F4F5F5;
+  padding-bottom: 108px;
+  padding-top: 88px;
 }
 
 .partners__title{
@@ -8,7 +9,7 @@
   font-size: 48px;
   line-height: 65px;
   color: #1A1B1E;
-  margin-bottom: 73px;
+  margin-bottom: 88px;
 }
 
 .partners__list{
@@ -29,7 +30,7 @@
   justify-content: center;
   min-height: 67px;
   min-width: 231px;
-  margin-top: 70px;
+  margin-top: 63px;
   filter: grayscale(100%);
 }
 

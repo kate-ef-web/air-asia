@@ -16,7 +16,6 @@
 .breadcrumbs__list{
   display: flex;
   align-items: center;
-  padding-bottom: 23px;
 }
 
 .breadcrumbs__item{
@@ -31,12 +30,8 @@
 .breadcrumbs__item:after{
   color: #9A9A9A;
   content: "/";
-  padding-left: 5px;
+  padding-left: 3px;
 }
-
-/* .breadcrumbs__item:last-child:after{
-  display: none;
-} */
 
 .breadcrumbs__link--active{
   width: 700;
