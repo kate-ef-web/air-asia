@@ -1,11 +1,11 @@
 .offers{
   margin-top: 247px;
-  margin-bottom: 126px;
+  margin-bottom: 121px;
 }
 
 .offers__header{
   width: 35%;
-  margin-bottom: 49px;
+  margin-bottom: 51px;
   display: flex;
   
 }
@@ -15,7 +15,7 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 49px;
-  margin-right: 16px;
+  margin-right: 12px;
   display: flex;
   
 }
@@ -83,7 +83,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #666666;
-  margin-right: 31px;
+  margin-right: 29px;
   
 }
 
@@ -99,7 +99,7 @@
 .offer-info__icon{
   width: 36px;
   height: 36px;
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 .offer-info--time .offer-info__icon{
@@ -119,7 +119,7 @@
   font-size: 14px;
   line-height: 21px;
   color: #303030;
-  margin-bottom: 9px;
+  margin-bottom: 24px;
 }
 
 .offer__button{

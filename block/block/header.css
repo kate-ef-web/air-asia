@@ -2,16 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 118px;
-  padding-top: 22px;
+  margin-bottom: 131px;
+  padding-top: 26px;
 }
 
 .header--secondary{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 89px;
-  padding-top: 24px;
+  margin-bottom: 97px;
+  padding-top: 25px;
 }
 
 .header__col{

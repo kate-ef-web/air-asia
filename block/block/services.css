@@ -14,12 +14,12 @@
 }
 
 .service__card:last-child{
-  padding-bottom: 59px;
+  padding-bottom: 69px;
 }
 
 .service__img{
-  width: 460px;
-  margin-right: 57px;
+  width: 457px;
+  margin-right: 60px;
   
 }
 
@@ -35,7 +35,7 @@
   font-size: 36px;
   line-height: 49px;
   color: #000000;
-  margin-bottom: 29px;
+  margin-bottom: 30px;
   margin-top: 14px;
 }
 

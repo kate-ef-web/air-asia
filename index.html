@@ -12,40 +12,50 @@
 
 <body>
   <div class="wrapper main-page-wrapper">
-    <section class="hero">
+    <div class="hero">
       <div class="container hero__container">
         <header class="header">
           <div class="header__col">
-            <a href="#" class="logo">
+            <a href="./hello.html" class="logo">
               <img src="img/лого.png" alt="Логотип компании" class="logo__pic">
             </a>
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
                 <li class="menu__item"><a href="./services.html" class="menu__link">Услуги</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                <li class="menu__item"><a href="./reviews.html" class="menu__link">Отзывы</a></li>
               </ul>
             </nav>
           </div>
           <div class="header__col header__col--align--right">
             <address class="contacts">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              <div class="contacts__dropdown-title">График работы</div>
+              <div class="dropdown">
+                <a href="#" class="dropdown__title">График работы</a>
+                <div class="dropdown__menu">
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                    <li class="dropdown__item">Обед: 14:00-14:30</li>
+                  </ul>
+                </div>
+              </div>
             </address>
           </div>
         </header>
       
       
         <div class="hero-content">
-          <div class="title">
+          <section class="title">
             <h1 class="title__caption">Авторские туры по Азии</h1>
             <h5 class="title__subtitle">Открой для себя Азию</h5>
-            <a href="#" class="button">Подробнее</a>
-          </div>
+            <div class="title__button">
+              <a href="#" class="button">Подробнее</a>
+            </div>
+          </section>
         </div>
       </div>
-    </section>
-
+    </div>
+        <main class="page-main">
           <section class="offers">
             <div class="container">
               <div class="offers__header">
@@ -111,7 +121,7 @@
                       </p>
                     </div>
                     <div class="offer__button">
-                      <a href="#" class="button">Смотреть</a>
+                      <a href="#" class="button button--color--white">Смотреть</a>
                     </div>
                   </div>
                 </li>
@@ -187,7 +197,7 @@
               <div class="paginator">
                 <div class="paginator__display">Страница 1 из 7</div>
                 <ul class="paginator__list">
-                  <li class="paginator__item"><a href="#" class="paginator__link-active" target="_blank">1</a></li>
+                  <li class="paginator__item"><a href="#" class="paginator__link" target="_blank">1</a></li>
                   <li class="paginator__item"><a href="#" class="paginator__link" target="_blank">2</a></li>
                   <li class="paginator__item"><a href="#" class="paginator__link" target="_blank">3</a></li>
                   <li class="paginator__item"><a href="#" class="paginator__link" target="_blank">4</a></li>
@@ -222,28 +232,24 @@
           <div class="container footer-container__content">
             <div class="footer">
               <div class="footer__col">
-                <a href="#" class="logo">
+                <a href="./hello.html" class="logo">
                   <img src="img/лого.png" alt="Логотип" class="logo-pic">
                 </a>
                 <nav class="menu">
                   <ul class="menu__list">
                     <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
                     <li class="menu__item"><a href="./services.html" class="menu__link">Услуги</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                    <li class="menu__item"><a href="./reviews.html" class="menu__link">Отзывы</a></li>
                   </ul>
                 </nav>
               </div>
               <div class="footer__col footer__col--align--right">
                 <div class="socials">
                   <ul class="socials__list">
-                    <li class="socials__item"><a href="#" class="socials__link"><img src="img/telegram.png" alt="Telegram"
-                        class="socials__icon"></a></li>
-                    <li class="socials__item"><a href="#" class="socials__link"><img src="img/vk.png" alt="Vk"
-                        class="socials__icon"></a></li>
-                    <li class="socials__item"><a href="#" class="socials__link"><img src="img/f.png" alt="Facebook"
-                        class="socials__icon"></a></li>
-                    <li class="socials__item"><a href="#" class="socials__link"><img src="img/in.png" alt="Instagram"
-                        class="socials__icon"></a></li>
+                    <li class="socials__item"><a href="#" class="socials__telegram"></a></li>
+                    <li class="socials__item"><a href="#" class="socials__vk"></a></li>
+                    <li class="socials__item"><a href="#" class="socials__Facebook"></a></li>
+                    <li class="socials__item"><a href="#" class="socials__Instagram"></a></li>
                   </ul>
                 </div>
                 <address class="contacts">

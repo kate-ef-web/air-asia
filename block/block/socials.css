@@ -1,12 +1,14 @@
 .socials{
+  /* margin-right: 73px; */
 }
 
 .socials__list{
-  margin-right: 81px;
+  /* width: 174px; */
+  margin-right: 74px;
 }
 
 .socials__item{
-  margin-right: 6px;
+  margin-right: 10px;
   display: inline-flex;
   vertical-align: middle;
   /* display: block; */
@@ -19,6 +21,10 @@
 .socials__item:last-child{
   margin-right: 0;
 }
+
+/* .socials__telegram{
+ 
+} */
 
 .socials__telegram:after{
   content: "";
