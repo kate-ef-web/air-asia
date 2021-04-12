@@ -42,9 +42,11 @@
 .paginator__link:hover{
   background: #fff;
   color: #F5170E;
+  transition: .5s;
 }
 
 .paginator__link--color-red:hover{
   background: #F5170E;
   color:#fff;
+  transition: .5s;
 }

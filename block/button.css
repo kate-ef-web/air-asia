@@ -15,7 +15,7 @@
 .button:hover{
   background: #FFF;
   color:#F5170E;  
-  
+  transition: all .3s ease .1s;
 }
 
 .button--color--white{
@@ -28,6 +28,7 @@
 .button--color--white:hover{
   background: #F5170E;
   color:#FFF;
+  transition: all .3s ease .1s;
 } 
 
 .button--color-black{

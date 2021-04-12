@@ -37,4 +37,5 @@
 .partners__link:hover{
   filter: grayscale(0);
   cursor: pointer;
+  transition: .7s ease-out;
 }
