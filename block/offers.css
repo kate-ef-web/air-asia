@@ -1,13 +1,6 @@
 .offers{
-  margin-top: 247px;
-  margin-bottom: 126px;
-}
-
-.offers__header{
-  width: 35%;
-  margin-bottom: 49px;
-  display: flex;
-  
+  padding-top: 123px;
+  padding-bottom: 63px;
 }
 
 .offers__title{
@@ -16,15 +9,14 @@
   font-size: 36px;
   line-height: 49px;
   margin-right: 16px;
-  display: flex;
-  
+  width: 35%;
+  margin-bottom: 49px;
 }
 
-.offers__icon{
-  width: 21px;
+.offers__title::after{
+  content: url("../img/fire.png");
   height: 28px;
-  display: flex;
-  align-self: center;
+  margin-left: 12px;
 }
 
 .offers__list{
@@ -40,7 +32,6 @@
   min-height: 450px;
   background: #fff;
   border-radius: 7px;
-  overflow: hidden;
   width: calc(100% / 3 - 27);
   display: flex;
   flex-direction: column;
@@ -53,12 +44,15 @@
 
 .offers__content{
   width: 362px;
-  height: 300px;
+  height: 305px;
   left: 389px;
   padding: 28px 21px;
-  flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+.offers__dscr{
+  flex: 1 1 auto;
 }
 
 .offers__subtitle{
@@ -73,18 +67,15 @@
 
 .offers__features{
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   margin-bottom: 19px;
   width: 280px;
 }
 
 .offers__feature{
-
   font-weight: 400;
   font-size: 16px;
   color: #666666;
-  margin-right: 31px;
-  
 }
 
 .offers__feature:last-child{
@@ -119,7 +110,7 @@
   font-size: 14px;
   line-height: 21px;
   color: #303030;
-  margin-bottom: 9px;
+  margin-bottom: 25px;
 }
 
 .offer__button{

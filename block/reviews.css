@@ -84,7 +84,9 @@
 }
 
 .separator{
-  background: #f7cfc8 url("../imgreview/people\ fon.png") right 24% bottom no-repeat;
+  background: 
+  url("../imgreview/people\ fon.png") right bottom no-repeat, 
+  url("../imgreview/review\ fon.png") center no-repeat;
   min-height: 363px;
   display: flex;
   flex-direction: column;

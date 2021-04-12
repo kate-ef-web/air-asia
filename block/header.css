@@ -1,3 +1,7 @@
+.hero{
+  padding-bottom: 123px;
+}
+
 .header{
   display: flex;
   justify-content: space-between;

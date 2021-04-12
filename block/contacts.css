@@ -61,6 +61,15 @@
   top: -14px;
 }
 
+.dropdown__menu::after{
+  content: '';
+  position: absolute;
+  right: 31px;
+  top: -28px;
+  border: 22px solid transparent;
+  border-bottom: 17px solid #CDD1D2;
+}
+
 .dropdown__item{
   color: #1E1F20;
   font-size: 13px;
